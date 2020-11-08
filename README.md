@@ -34,14 +34,14 @@
 
 #### X Malware
 
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+**Summary:** Dionaea had a ton of malware submissions in a short time. I will go over one here. I got the hash from the Payloads portion of the MHN-Admin site.
 
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
+MD5 Hash: 0ab2aeda90221832167e5127332dd702
 
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+SHA1 Hash: f370045d8ac3f4ba78acf8bfe4c4d35758d5ea05
 
-<img src="x-malware.gif">
+It is WannaCry, which is a trojan ransomware that encrypts your files and requests payment in Bitcoin to unlock them.
 
-## Notes
+[Link to VirusTotal](https://www.virustotal.com/gui/file/64bb708b31b4b043018457c1098465ea83da7d6408c7029b2f68c333fc25891c/detection)
 
-Describe any challenges encountered while doing the assignment.
+<img src="vt.png">
